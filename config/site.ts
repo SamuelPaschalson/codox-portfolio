@@ -1,0 +1,42 @@
+export const siteConfig = {
+  name: "Codox | Developer Portfolio",
+  authorName: "Codox",
+  username: "codox",
+  description:
+    "Codox's portfolio - A modern, responsive Next.js portfolio, displaying the brands rich tech stack and hands on experience in programming.",
+  url: "https://codox.netlify.app",
+  links: {
+    twitter: "",
+    github: "",
+  },
+  ogImage: "https://nbarkiya.xyz/profile-img.jpg",
+  iconIco:
+    "https://res.cloudinary.com/dbfvcn3f6/image/upload/v1692357384/assets/naman-favicon.ico",
+  logoIcon:
+    "https://res.cloudinary.com/dbfvcn3f6/image/upload/v1692357294/assets/naman-logo.png",
+  keywords: [
+    "Codox",
+    "Full Stack Developer",
+    "Web Developer Portfolio",
+    "Next.js portfolio template",
+    "React portfolio template",
+    "Developer portfolio template",
+    "Portfolio website template",
+    "Next.js template",
+    "Modern portfolio website",
+    "Frontend developer portfolio",
+    "Full stack developer portfolio",
+    "Open source portfolio template",
+    "Web developer portfolio template",
+    "Responsive portfolio template",
+    "React.js portfolio",
+    "Tailwind CSS portfolio",
+    "Developer showcase template",
+    "Free portfolio template",
+    "Next.js 13 template",
+    "Shadcn UI template",
+    "Career timeline template",
+    "Portfolio with dark mode",
+    "GitHub portfolio template",
+  ],
+};
