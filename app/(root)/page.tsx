@@ -6,11 +6,9 @@ import { AnimatedSection } from "@/components/common/animated-section";
 import { AnimatedText } from "@/components/common/animated-text";
 import { ClientPageWrapper } from "@/components/common/client-page-wrapper";
 import { Icons } from "@/components/common/icons";
-import ContributionCard from "@/components/contributions/contribution-card";
 import ProjectCard from "@/components/projects/project-card";
 import SkillsCard from "@/components/skills/skills-card";
 import { Button, buttonVariants } from "@/components/ui/button";
-import { featuredContributions } from "@/config/contributions";
 import { pagesConfig } from "@/config/pages";
 import { featuredProjects } from "@/config/projects";
 import { siteConfig } from "@/config/site";
@@ -186,7 +184,7 @@ export default function IndexPage() {
                     </p>
                 </div> */}
       </AnimatedSection>
-      <AnimatedSection
+      {/* <AnimatedSection
         direction="down"
         className="container space-y-6 bg-muted py-10 my-14"
         id="contributions"
@@ -216,7 +214,7 @@ export default function IndexPage() {
             </Button>
           </Link>
         </AnimatedText>
-      </AnimatedSection>
+      </AnimatedSection> */}
     </ClientPageWrapper>
   );
 }
