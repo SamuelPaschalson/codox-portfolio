@@ -1,5 +1,5 @@
 export const siteConfig = {
-  name: "Codox | Developer Portfolio",
+  name: "Codox - Developer Portfolio",
   authorName: "Codox",
   username: "codox",
   description:
