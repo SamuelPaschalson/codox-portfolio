@@ -19,9 +19,7 @@ A modern, responsive, and SEO-optimized **Next.js 14 portfolio template** design
 
 ## 🚀 Demo
 
-View the live demo at [https://nbarkiya.xyz/](https://nbarkiya.xyz)
-
-https://github.com/namanbarkiya/minimal-next-portfolio/assets/82203888/f93bf5ca-c2bd-4fe5-a413-1050ebf6cf78
+View the live demo at [https://codox-portfolio.vercel.app/](https://codox-portfolio.vercel.app/)
 
 ## 🛠️ Tech Stack
 
@@ -40,7 +38,7 @@ To get started with your own portfolio website:
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/namanbarkiya/minimal-next-portfolio.git my-portfolio
+   git clone https://github.com/SamuelPaschalson/codox-portfolio.git my-portfolio
    cd my-portfolio
    ```
 
@@ -101,11 +99,6 @@ A ready-to-use contact form that can connect to various backend services.
 
 Built-in SEO features with proper meta tags, structured data, and semantic HTML.
 
-## 📱 Performance and Responsiveness
-
-![best-portfolio-website-score](https://github.com/namanbarkiya/minimal-next-portfolio/assets/82203888/3fb9c94d-9d99-4e98-92ea-14aadc91b568)
-![100-score-vercel](https://github.com/namanbarkiya/minimal-next-portfolio/assets/82203888/7cfe28cc-b619-4199-9dab-1cf16723b86d)
-
 This template is optimized for:
 
 - 100% Lighthouse score
@@ -120,7 +113,6 @@ This project is open source and available under the [MIT License](LICENSE).
 ## 🙏 Acknowledgements
 
 - Design inspired by modern portfolio best practices
-- Built by [Naman Barkiya](https://github.com/namanbarkiya)
 - Icons from [Lucide](https://lucide.dev/)
 
 ## 💻 Deploy on Vercel
@@ -129,10 +121,6 @@ The easiest way to deploy your portfolio is using [Vercel](https://vercel.com/ne
 
 Check out the [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
-## 🌟 Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=namanbarkiya/minimal-next-portfolio&type=Date)](https://star-history.com/#namanbarkiya/minimal-next-portfolio&Date)
-
 ---
 
-**Built with ❤️ by [Naman Barkiya](https://github.com/namanbarkiya)**
+**Built with ❤️ by [Codox](https://github.com/SamuelPaschalson)**
