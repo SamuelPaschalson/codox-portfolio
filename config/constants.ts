@@ -60,6 +60,9 @@ export type ValidSkills =
   | "FastAPI"
   | "SQL"
   | "NoSQL"
+  | "UI/UX"
+  | "Expo"
+  | "React Native"
   | "Framer Motion";
 
 export type ValidCategory =
@@ -71,7 +74,7 @@ export type ValidCategory =
   | "Mobile Dev"
   | "3D Modeling";
 
-export type ValidExpType = "Personal" | "Professional";
+export type ValidExpType = "Website" | "Design" | "Apps";
 
 export type ValidPages =
   | "home"

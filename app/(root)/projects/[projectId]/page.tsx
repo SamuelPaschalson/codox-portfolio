@@ -18,7 +18,39 @@ interface ProjectPageProps {
   };
 }
 
-const githubUsername = "namanbarkiya";
+const githubUsername = "Codox";
+
+function Video({
+  src,
+  alt,
+  width,
+  height,
+  className,
+  priority,
+}: {
+  src: string;
+  alt: string;
+  width: number;
+  height: number;
+  className?: string;
+  priority?: boolean;
+}) {
+  return (
+    <video
+      width={width}
+      height={height}
+      className={className}
+      autoPlay
+      loop
+      muted
+      playsInline
+      controls
+    >
+      <source src={src} type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+  );
+}
 
 export default function Project({ params }: ProjectPageProps) {
   let project = Projects.find((val) => val.id === params.projectId);
@@ -72,14 +104,15 @@ export default function Project({ params }: ProjectPageProps) {
           >
             <Image
               src={profileImg}
-              alt={"naman"}
+              alt={"Codox"}
+              loading="lazy"
               width={42}
               height={42}
               className="rounded-full bg-background"
             />
 
             <div className="flex-1 text-left leading-tight">
-              <p className="font-medium">{"Naman Barkiya"}</p>
+              <p className="font-medium">{"Codox"}</p>
               <p className="text-[12px] text-muted-foreground">
                 @{siteConfig.username}
               </p>
@@ -108,7 +141,6 @@ export default function Project({ params }: ProjectPageProps) {
         <h2 className="inline-block font-heading text-3xl leading-tight lg:text-3xl mb-2">
           Description
         </h2>
-        {/* {<project.descriptionComponent />} */}
         <ProjectDescription
           paragraphs={project.descriptionDetails.paragraphs}
           bullets={project.descriptionDetails.bullets}
@@ -126,11 +158,22 @@ export default function Project({ params }: ProjectPageProps) {
             </h3>
             <div>
               <p>{page.description}</p>
-              {page.imgArr.map((img, ind) => (
+              {page.imgArr?.map((img, ind) => (
                 <Image
                   src={img}
                   key={ind}
                   alt={img}
+                  width={720}
+                  height={405}
+                  className="my-4 rounded-md border bg-muted transition-colors"
+                  priority
+                />
+              ))}
+              {page.vidArr?.map((vid, ind) => (
+                <Video
+                  src={vid}
+                  key={ind}
+                  alt={vid}
                   width={720}
                   height={405}
                   className="my-4 rounded-md border bg-muted transition-colors"

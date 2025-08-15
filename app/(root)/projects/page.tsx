@@ -13,10 +13,12 @@ export const metadata: Metadata = {
 
 const renderContent = (tabVal: string) => {
   let projectArr = Projects;
-  if (tabVal === "personal") {
-    projectArr = projectArr.filter((val) => val.type === "Personal");
-  } else if (tabVal === "professional") {
-    projectArr = projectArr.filter((val) => val.type === "Professional");
+  if (tabVal === "website") {
+    projectArr = projectArr.filter((val) => val.type === "Website");
+  } else if (tabVal === "design") {
+    projectArr = projectArr.filter((val) => val.type === "Design");
+  } else if (tabVal === "apps") {
+    projectArr = projectArr.filter((val) => val.type === "Apps");
   }
 
   return (
@@ -36,14 +38,19 @@ export default function ProjectsPage() {
       content: renderContent("all"),
     },
     {
-      value: "personal",
-      label: "Personal",
-      content: renderContent("personal"),
+      value: "website",
+      label: "Website",
+      content: renderContent("website"),
     },
     {
-      value: "professional",
-      label: "Professional",
-      content: renderContent("professional"),
+      value: "design",
+      label: "Design",
+      content: renderContent("design"),
+    },
+    {
+      value: "apps",
+      label: "Apps",
+      content: renderContent("apps"),
     },
   ];
 
