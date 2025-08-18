@@ -96,7 +96,7 @@ export const Projects: ProjectInterface[] = [
     ],
     startDate: new Date("2021-07-01"),
     endDate: new Date("2022-07-01"),
-    companyLogoImg: "/projects/zentask/logo.jpg",
+    companyLogoImg: "/projects/blank/blank.jpg",
     pagesInfoArr: [
       {
         title: "Landing Page",
@@ -157,18 +157,8 @@ export const Projects: ProjectInterface[] = [
       },
     ],
     descriptionDetails: {
-      paragraphs: [
-        // `Venturing into the world of creativity at The Super Quotes was an exhilarating journey. As a passionate developer, I led the charge in crafting a compelling application from inception to completion, using the dynamic duo of JavaScript and React Native.`,
-        // `The heart of my achievement lay in the seamless integration of APIs, threading a tapestry of data flow that propelled the application's functionality to new heights.`,
-        // `With the wizardry of Redux, I choreographed a symphony of state management and performance optimization, orchestrating a ballet of responsiveness that wowed users with every interaction.`,
-        // `A crescendo awaited as I unveiled the culmination of my work on the grand stage of the Google Play Store. The app's debut marked an epoch, opening doors to an expansive audience eager to embrace the charm of The Super Quotes.`,
-      ],
-      bullets: [
-        // "Led the end-to-end development of a captivating application using JavaScript and React Native.",
-        // "Championed the integration of APIs, harmonizing data flow and enhancing application functionality.",
-        // "Conducted Redux magic to ensure state management and optimize performance, delivering a mesmerizing user experience.",
-        // "Premiered the application on the Google Play Store, capturing hearts and expanding its user base.",
-      ],
+      paragraphs: [],
+      bullets: [],
     },
   },
   {
@@ -196,21 +186,8 @@ export const Projects: ProjectInterface[] = [
       },
     ],
     descriptionDetails: {
-      paragraphs: [
-        // "The Apex Shopping App represents a comprehensive mobile e-commerce solution that I developed from the ground up using React Native and Firebase. This project showcases my ability to create a full-featured shopping application with both user and admin functionalities.",
-        // "The application features a robust authentication system, allowing users to securely sign up and log in. The product exploration interface is designed with user experience in mind, incorporating smooth navigation and intuitive filtering options.",
-        // "One of the key highlights is the admin panel, which provides complete control over product management, order processing, and inventory tracking. The integration with Firebase ensures real-time data synchronization and reliable data persistence.",
-        // "The app's architecture emphasizes scalability and performance, utilizing Redux for state management and following best practices for mobile app development. The UI/UX design focuses on providing a seamless shopping experience across different device sizes.",
-      ],
-      bullets: [
-        // "Implemented secure user authentication and authorization using Firebase",
-        // "Designed and developed an intuitive product browsing and shopping cart system",
-        // "Created a comprehensive admin panel for product and order management",
-        // "Integrated real-time data synchronization using Firebase Database",
-        // "Implemented state management using Redux for optimal performance",
-        // "Designed responsive UI components following mobile-first principles",
-        // "Incorporated smooth animations and transitions for enhanced user experience",
-      ],
+      paragraphs: [],
+      bullets: [],
     },
   },
   {
@@ -250,29 +227,13 @@ export const Projects: ProjectInterface[] = [
         title: "Article View",
         description:
           "Clean and readable article layout with rich media support",
-        imgArr: [
-          "/projects/neo-sphere/neosphere3.jpg",
-          // "/projects/neo-sphere/blog_5.webp",
-        ],
+        imgArr: ["/projects/neo-sphere/neosphere3.jpg"],
         vidArr: [],
       },
     ],
     descriptionDetails: {
-      paragraphs: [
-        // "As part of the Builtdesign platform, I developed a sophisticated blog website that serves as a content hub for the company's thought leadership and industry insights. The project leveraged Next.js and React to create a fast, SEO-friendly platform.",
-        // "The blog platform features a modern, responsive design that prioritizes readability and user engagement. I implemented a robust content management system using Netlify CMS, enabling the content team to easily publish and manage blog posts.",
-        // "The architecture includes server-side rendering for optimal performance and SEO, while MongoDB provides flexible content storage. TypeScript ensures code reliability and maintainability throughout the application.",
-        // "Key features include category-based navigation, search functionality, and a rich text editor for content creation. The platform supports various content types including images, code snippets, and embedded media.",
-      ],
-      bullets: [
-        // "Developed a modern blog platform using Next.js and React with TypeScript",
-        // "Implemented Netlify CMS for efficient content management",
-        // "Created a responsive design that prioritizes readability and user engagement",
-        // "Built server-side rendering for optimal performance and SEO",
-        // "Integrated MongoDB for flexible content storage and management",
-        // "Developed category-based navigation and search functionality",
-        // "Implemented rich text editing capabilities for content creation",
-      ],
+      paragraphs: [],
+      bullets: [],
     },
   },
   {
@@ -358,20 +319,8 @@ export const Projects: ProjectInterface[] = [
       },
     ],
     descriptionDetails: {
-      paragraphs: [
-        // "For the 'Cirql Dashboard' personal, I aimed to enhance my UI design skills and deepen my understanding of routing within a React application.",
-        // "I utilized React and Tailwind CSS to craft an intuitive dashboard interface that provides users with an organized overview of data and functionalities. The UI components were thoughtfully designed to ensure a seamless user experience.",
-        // "Incorporating Google Sign-In Authentication further fortified the project by adding a layer of security and convenience. Users are required to authenticate before accessing certain routes, ensuring the safety of sensitive information.",
-        // "The routing system was meticulously implemented to enable smooth navigation between different sections of the dashboard, simulating real-world use cases.",
-        // "Through this project, I've gained valuable insights into UI/UX design principles and the implementation of secure and efficient routing in React applications.",
-      ],
-      bullets: [
-        // "Created a user-friendly dashboard project using React and Tailwind CSS.",
-        // "Implemented Google Sign-In Authentication to ensure secure access to sensitive routes.",
-        // "Designed UI components to provide an intuitive and visually pleasing experience.",
-        // "Focused on implementing a smooth routing system to simulate real-world use cases.",
-        // "Enhanced my skills in UI design, routing, and component architecture.",
-      ],
+      paragraphs: [],
+      bullets: [],
     },
   },
   {
@@ -409,20 +358,8 @@ export const Projects: ProjectInterface[] = [
       },
     ],
     descriptionDetails: {
-      paragraphs: [
-        // "For the 'Cirql Dashboard' personal, I aimed to enhance my UI design skills and deepen my understanding of routing within a React application.",
-        // "I utilized React and Tailwind CSS to craft an intuitive dashboard interface that provides users with an organized overview of data and functionalities. The UI components were thoughtfully designed to ensure a seamless user experience.",
-        // "Incorporating Google Sign-In Authentication further fortified the project by adding a layer of security and convenience. Users are required to authenticate before accessing certain routes, ensuring the safety of sensitive information.",
-        // "The routing system was meticulously implemented to enable smooth navigation between different sections of the dashboard, simulating real-world use cases.",
-        // "Through this project, I've gained valuable insights into UI/UX design principles and the implementation of secure and efficient routing in React applications.",
-      ],
-      bullets: [
-        // "Created a user-friendly dashboard project using React and Tailwind CSS.",
-        // "Implemented Google Sign-In Authentication to ensure secure access to sensitive routes.",
-        // "Designed UI components to provide an intuitive and visually pleasing experience.",
-        // "Focused on implementing a smooth routing system to simulate real-world use cases.",
-        // "Enhanced my skills in UI design, routing, and component architecture.",
-      ],
+      paragraphs: [],
+      bullets: [],
     },
   },
   {
@@ -493,6 +430,332 @@ export const Projects: ProjectInterface[] = [
         "Designed responsive UI components following mobile-first principles",
         "Incorporated smooth animations and transitions for enhanced user experience",
       ],
+    },
+  },
+  {
+    id: "joystick-labs",
+    companyName: "JoyStick Labs",
+    type: "Apps",
+    category: ["Mobile Dev", "Full Stack", "UI/UX"],
+    shortDescription:
+      "Developed a feature-rich mobile Web3 Gaming platform. This project uses next/font to automatically optimize and load Inter, a custom Google Font.",
+    githubLink: "https://github.com/SamuelPaschalson/Joysticklabstestnet",
+    techStack: [
+      "React",
+      "Next.js",
+      "Javascript",
+      "Redux",
+      "Node.js",
+      "express.js",
+    ],
+    startDate: new Date("2021-07-14"),
+    endDate: new Date("2022-07-01"),
+    companyLogoImg: "/projects/joystick/logo.png",
+    pagesInfoArr: [
+      {
+        title: "",
+        description: "Custom animated splash screen with app branding",
+        imgArr: ["/projects/joystick/joystick.png"],
+        vidArr: [],
+      },
+      {
+        title: "",
+        description: "",
+        imgArr: ["/projects/joystick/joystick1.png"],
+        vidArr: [],
+      },
+    ],
+    descriptionDetails: {
+      paragraphs: [
+        // "The Apex Shopping App represents a comprehensive mobile e-commerce solution that I developed from the ground up using React Native and Firebase. This project showcases my ability to create a full-featured shopping application with both user and admin functionalities.",
+        // "The application features a robust authentication system, allowing users to securely sign up and log in. The product exploration interface is designed with user experience in mind, incorporating smooth navigation and intuitive filtering options.",
+        // "One of the key highlights is the admin panel, which provides complete control over product management, order processing, and inventory tracking. The integration with Firebase ensures real-time data synchronization and reliable data persistence.",
+        // "The app's architecture emphasizes scalability and performance, utilizing Redux for state management and following best practices for mobile app development. The UI/UX design focuses on providing a seamless shopping experience across different device sizes.",
+      ],
+      bullets: [
+        // "Implemented secure user authentication and authorization using Firebase",
+        // "Designed and developed an intuitive product browsing and shopping cart system",
+        // "Created a comprehensive admin panel for product and order management",
+        // "Integrated real-time data synchronization using Firebase Database",
+        // "Implemented state management using Redux for optimal performance",
+        // "Designed responsive UI components following mobile-first principles",
+        // "Incorporated smooth animations and transitions for enhanced user experience",
+      ],
+    },
+  },
+  {
+    id: "java-management",
+    companyName: "Java Management Api",
+    type: "Apps",
+    category: ["Api", "Full Stack"],
+    shortDescription:
+      "Developed a rich api management system using Java Spring boot for book management",
+    githubLink: "https://github.com/SamuelPaschalson/management-system",
+    techStack: [
+      "Java",
+      "Next.js",
+      "Javascript",
+      "Redux",
+      "Node.js",
+      "express.js",
+    ],
+    startDate: new Date("2021-07-14"),
+    endDate: new Date("2022-07-01"),
+    companyLogoImg: "/projects/blank/logo.png",
+    pagesInfoArr: [
+      {
+        title: "",
+        description: "",
+        imgArr: ["/projects/blank/blank.jpg"],
+        vidArr: [],
+      },
+      {
+        title: "",
+        description: "",
+        imgArr: ["/projects/blank/blank.jpg"],
+        vidArr: [],
+      },
+    ],
+    descriptionDetails: {
+      paragraphs: [
+        // "The Apex Shopping App represents a comprehensive mobile e-commerce solution that I developed from the ground up using React Native and Firebase. This project showcases my ability to create a full-featured shopping application with both user and admin functionalities.",
+        // "The application features a robust authentication system, allowing users to securely sign up and log in. The product exploration interface is designed with user experience in mind, incorporating smooth navigation and intuitive filtering options.",
+        // "One of the key highlights is the admin panel, which provides complete control over product management, order processing, and inventory tracking. The integration with Firebase ensures real-time data synchronization and reliable data persistence.",
+        // "The app's architecture emphasizes scalability and performance, utilizing Redux for state management and following best practices for mobile app development. The UI/UX design focuses on providing a seamless shopping experience across different device sizes.",
+      ],
+      bullets: [
+        // "Implemented secure user authentication and authorization using Firebase",
+        // "Designed and developed an intuitive product browsing and shopping cart system",
+        // "Created a comprehensive admin panel for product and order management",
+        // "Integrated real-time data synchronization using Firebase Database",
+        // "Implemented state management using Redux for optimal performance",
+        // "Designed responsive UI components following mobile-first principles",
+        // "Incorporated smooth animations and transitions for enhanced user experience",
+      ],
+    },
+  },
+  {
+    id: "xenok-resume",
+    companyName: "XenOK Resmue Builder",
+    type: "Website",
+    category: ["Api", "Full Stack"],
+    shortDescription:
+      "With this resume builder though basic you will build a resume that is just perfect for you, the project would be constantly updated, so you are in for a treat.",
+    githubLink: "https://github.com/SamuelPaschalson/Resume-builder-site",
+    techStack: ["PHP", "Laravel", "Javascript"],
+    startDate: new Date("2021-07-14"),
+    endDate: new Date("2022-07-01"),
+    companyLogoImg: "/projects/blank/logo.png",
+    pagesInfoArr: [
+      {
+        title: "",
+        description:
+          "With this resume builder though basic you will build a resume that is just perfect for you, the project would be constantly updated, so you are in for a treat.",
+        imgArr: ["/projects/blank/xenok.png"],
+        vidArr: [],
+      },
+      {
+        title: "",
+        description: "",
+        imgArr: ["/projects/blank/blank.jpg"],
+        vidArr: [],
+      },
+    ],
+    descriptionDetails: {
+      paragraphs: [],
+      bullets: [],
+    },
+  },
+  {
+    id: "gym-website",
+    companyName: "Gym Website",
+    type: "Website",
+    category: ["Frontend", "Full Stack"],
+    shortDescription:
+      "A prototype of a gym website that displaying the members, coaches, programs, our pricing plans and how to contact us, with a counting animation and a working email join using email js.",
+    githubLink: "https://github.com/SamuelPaschalson/Gym-Website",
+    techStack: ["PHP", "Laravel", "Javascript"],
+    startDate: new Date("2021-07-14"),
+    endDate: new Date("2022-07-01"),
+    companyLogoImg: "/projects/blank/logo.png",
+    pagesInfoArr: [
+      {
+        title: "",
+        description:
+          "A prototype of a gym website that displaying the members, coaches, programs, our pricing plans and how to contact us, with a counting animation and a working email join using email js.",
+        imgArr: ["/projects/blank/gym.png"],
+        vidArr: [],
+      },
+      {
+        title: "",
+        description: "",
+        imgArr: ["/projects/blank/blank.jpg"],
+        vidArr: [],
+      },
+    ],
+    descriptionDetails: {
+      paragraphs: [],
+      bullets: [],
+    },
+  },
+  {
+    id: "ecommerce-website",
+    companyName: "E-Commerce Website",
+    type: "Website",
+    category: ["Frontend", "Frontend", "Full Stack"],
+    shortDescription:
+      "An Ecommerce site made from scratch in Webpack, to pay on the site use 4242424242424242424242 as the card number its all for testing.",
+    githubLink: "https://github.com/SamuelPaschalson/react-app-from-scratch/",
+    techStack: ["React", "Node.js", "Javascript"],
+    startDate: new Date("2021-07-14"),
+    endDate: new Date("2022-07-01"),
+    companyLogoImg: "/projects/blank/logo.png",
+    pagesInfoArr: [
+      {
+        title: "",
+        description:
+          "An Ecommerce site made from scratch in Webpack, to pay on the site use 4242424242424242424242 as the card number its all for testing.",
+        imgArr: ["/projects/blank/e-commerce.png"],
+        vidArr: [],
+      },
+      {
+        title: "",
+        description: "",
+        imgArr: ["/projects/blank/blank.jpg"],
+        vidArr: [],
+      },
+    ],
+    descriptionDetails: {
+      paragraphs: [],
+      bullets: [],
+    },
+  },
+  {
+    id: "dreamshare",
+    companyName: "DreamShare Website",
+    type: "Website",
+    category: ["Web Dev", "Full Stack", "Frontend"],
+    shortDescription:
+      "A responsive site made with sass, webpack and json. Though the responsiveness is incomplete, expect a complete project soon.",
+    githubLink: "https://github.com/SamuelPaschalson/TestSite/",
+    techStack: ["React", "Node.js", "Javascript"],
+    startDate: new Date("2021-07-14"),
+    endDate: new Date("2022-07-01"),
+    companyLogoImg: "/projects/blank/logo.png",
+    pagesInfoArr: [
+      {
+        title: "",
+        description:
+          "A responsive site made with sass, webpack and json. Though the responsiveness is incomplete, expect a complete project soon.",
+        imgArr: ["/projects/blank/dreamshare.png"],
+        vidArr: [],
+      },
+      {
+        title: "",
+        description: "",
+        imgArr: ["/projects/blank/blank.jpg"],
+        vidArr: [],
+      },
+    ],
+    descriptionDetails: {
+      paragraphs: [],
+      bullets: [],
+    },
+  },
+  {
+    id: "jsondb",
+    companyName: "JSONDB (Npm)",
+    type: "Website",
+    category: ["Web Dev", "Full Stack", "Api", "Backend"],
+    shortDescription:
+      "This is a node_modules package that lets users access or use database like structure with Json files",
+    githubLink: "https://www.npmjs.com/package/@samuelpaschalson/json-db",
+    techStack: ["React", "Node.js", "Javascript"],
+    startDate: new Date("2021-07-14"),
+    endDate: new Date("2022-07-01"),
+    companyLogoImg: "/projects/blank/logo.png",
+    pagesInfoArr: [
+      {
+        title: "",
+        description:
+          "This is a node_modules package that lets users access or use database like structure with Json files",
+        imgArr: ["/projects/blank/blank.jpg"],
+        vidArr: [],
+      },
+      {
+        title: "",
+        description: "",
+        imgArr: ["/projects/blank/blank.jpg"],
+        vidArr: [],
+      },
+    ],
+    descriptionDetails: {
+      paragraphs: [],
+      bullets: [],
+    },
+  },
+  {
+    id: "lyrically",
+    companyName: "Lyrically",
+    type: "Apps",
+    category: ["Web Dev", "Full Stack", "Backend"],
+    shortDescription:
+      "A React Native native app utilising Expo, React Navigation and fetching data from multiple API's (Deezer and Lyrics.OVH).",
+    githubLink: "https://github.com/SamuelPaschalson/Lyrically",
+    techStack: ["React", "Node.js", "Javascript"],
+    startDate: new Date("2021-07-14"),
+    endDate: new Date("2022-07-01"),
+    companyLogoImg: "/projects/blank/logo.png",
+    pagesInfoArr: [
+      {
+        title: "",
+        description:
+          "A React Native native app utilising Expo, React Navigation and fetching data from multiple API's (Deezer and Lyrics.OVH).",
+        imgArr: ["/projects/blank/blank.jpg"],
+        vidArr: [],
+      },
+      {
+        title: "",
+        description: "",
+        imgArr: ["/projects/blank/blank.jpg"],
+        vidArr: [],
+      },
+    ],
+    descriptionDetails: {
+      paragraphs: [],
+      bullets: [],
+    },
+  },
+  {
+    id: "zoo-management",
+    companyName: "Zoo Management",
+    type: "Website",
+    category: ["Web Dev", "Full Stack", "Backend"],
+    shortDescription:
+      "A Zoo management template in php, using a protoytype of the Xanak templating.",
+    githubLink: "https://github.com/SamuelPaschalson/Zoo-management",
+    techStack: ["PHP", "Laravel", "Javascript"],
+    startDate: new Date("2021-07-14"),
+    endDate: new Date("2022-07-01"),
+    companyLogoImg: "/projects/blank/logo.png",
+    pagesInfoArr: [
+      {
+        title: "",
+        description:
+          "A Zoo management template in php, using a protoytype of the Xanak templating.",
+        imgArr: ["/projects/blank/blank.jpg"],
+        vidArr: [],
+      },
+      {
+        title: "",
+        description: "",
+        imgArr: ["/projects/blank/blank.jpg"],
+        vidArr: [],
+      },
+    ],
+    descriptionDetails: {
+      paragraphs: [],
+      bullets: [],
     },
   },
 ];

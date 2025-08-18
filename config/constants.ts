@@ -71,6 +71,7 @@ export type ValidCategory =
   | "Backend"
   | "UI/UX"
   | "Web Dev"
+  | "Api"
   | "Mobile Dev"
   | "3D Modeling";
 
