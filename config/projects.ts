@@ -599,6 +599,42 @@ export const Projects: ProjectInterface[] = [
     },
   },
   {
+    id: "pout-polish",
+    companyName: "Pout Polish",
+    type: "Website",
+    category: ["Web Dev", "Full Stack", "Frontend"],
+    shortDescription:
+      "A Lipcare brand. Your lips, but softer, shinier, and absolutely irresistible..",
+    githubLink: "https://github.com/SamuelPaschalson/pout-polish",
+    techStack: ["React", "Next.js", "Javascript"],
+    startDate: new Date("2021-07-14"),
+    endDate: new Date("2022-07-01"),
+    companyLogoImg: "/projects/pout-polish/logo.jpg",
+    pagesInfoArr: [
+      {
+        title: "",
+        description:
+          "A Lipcare brand. Your lips, but softer, shinier, and absolutely irresistible..",
+        imgArr: ["/projects/pout-polish/pout1.png"],
+        vidArr: [],
+      },
+      {
+        title: "",
+        description: "",
+        imgArr: [
+          "/projects/pout-polish/pout2.png",
+          "/projects/pout-polish/pout3.png",
+          "/projects/pout-polish/pout4.png",
+        ],
+        vidArr: [],
+      },
+    ],
+    descriptionDetails: {
+      paragraphs: [],
+      bullets: [],
+    },
+  },
+  {
     id: "ecommerce-website",
     companyName: "E-Commerce Website",
     type: "Website",
