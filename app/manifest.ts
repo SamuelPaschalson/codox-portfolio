@@ -5,7 +5,7 @@ export default function manifest(): MetadataRoute.Manifest {
     name: "Codox Portfolio",
     short_name: "Codox's Portfolio",
     description:
-      "Codox's modern developer portfolio built with Next.js - available as an open-source template",
+      "Codox's modern developer From custom websites to automation and email systems — We help you streamline your business so you can focus on what you do best.",
     start_url: "/",
     display: "standalone",
     background_color: "#ffffff",

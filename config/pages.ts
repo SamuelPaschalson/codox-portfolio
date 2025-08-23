@@ -47,7 +47,8 @@ export const pagesConfig: PagesConfig = {
   },
   contributions: {
     title: "Contributions",
-    description: "Open-source contributions and community involvement.",
+    description:
+      "From custom websites to automation and email systems — We help you streamline your business so you can focus on what you do best.",
     metadata: {
       title: "Contributions",
       description:

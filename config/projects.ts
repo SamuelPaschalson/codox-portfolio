@@ -635,6 +635,42 @@ export const Projects: ProjectInterface[] = [
     },
   },
   {
+    id: "roovas",
+    companyName: "Roovas",
+    type: "Website",
+    category: ["Web Dev", "Full Stack", "Frontend"],
+    shortDescription:
+      "Everything you need to successfully buy or sell your property is here..",
+    githubLink: "#",
+    techStack: ["React", "Next.js", "Javascript"],
+    startDate: new Date("2021-07-14"),
+    endDate: new Date("2022-07-01"),
+    companyLogoImg: "/projects/roovas/logo.png",
+    pagesInfoArr: [
+      {
+        title: "",
+        description:
+          "Everything you need to successfully buy or sell your property is here..",
+        imgArr: ["/projects/roovas/roovas.png"],
+        vidArr: [],
+      },
+      {
+        title: "",
+        description: "",
+        imgArr: [
+          "/projects/roovas/roovas1.png",
+          "/projects/roovas/roovas2.png",
+          "/projects/roovas/roovas3.png",
+        ],
+        vidArr: [],
+      },
+    ],
+    descriptionDetails: {
+      paragraphs: [],
+      bullets: [],
+    },
+  },
+  {
     id: "ecommerce-website",
     companyName: "E-Commerce Website",
     type: "Website",

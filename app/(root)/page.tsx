@@ -17,7 +17,7 @@ import { cn } from "@/lib/utils";
 
 export const metadata: Metadata = {
   title: `${pagesConfig.home.metadata.title}`,
-  description: `${pagesConfig.home.metadata.description} This open-source Next.js portfolio template is customizable to showcase your skills and projects.`,
+  description: `${pagesConfig.home.metadata.description} From custom websites to automation and email systems — We help you streamline your business so you can focus on what you do best.`,
   alternates: {
     canonical: siteConfig.url,
   },
@@ -85,8 +85,8 @@ export default function IndexPage() {
           </AnimatedText>
           <div className="mt-4 max-w-[42rem] text-center">
             <p className="leading-normal text-muted-foreground text-sm sm:text-base">
-              Open-source Next.js portfolio template. Fork this on GitHub to
-              create your own developer portfolio.
+              From custom websites to automation and email systems — We help you
+              streamline your business so you can focus on what you do best.
             </p>
           </div>
 
