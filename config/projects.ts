@@ -484,89 +484,6 @@ export const Projects: ProjectInterface[] = [
     },
   },
   {
-    id: "java-management",
-    companyName: "Java Management Api",
-    type: "Apps",
-    category: ["Api", "Full Stack"],
-    shortDescription:
-      "Developed a rich api management system using Java Spring boot for book management",
-    githubLink: "https://github.com/SamuelPaschalson/management-system",
-    techStack: [
-      "Java",
-      "Next.js",
-      "Javascript",
-      "Redux",
-      "Node.js",
-      "express.js",
-    ],
-    startDate: new Date("2021-07-14"),
-    endDate: new Date("2022-07-01"),
-    companyLogoImg: "/projects/blank/logo.png",
-    pagesInfoArr: [
-      {
-        title: "",
-        description: "",
-        imgArr: ["/projects/blank/blank.jpg"],
-        vidArr: [],
-      },
-      {
-        title: "",
-        description: "",
-        imgArr: ["/projects/blank/blank.jpg"],
-        vidArr: [],
-      },
-    ],
-    descriptionDetails: {
-      paragraphs: [
-        // "The Apex Shopping App represents a comprehensive mobile e-commerce solution that I developed from the ground up using React Native and Firebase. This project showcases my ability to create a full-featured shopping application with both user and admin functionalities.",
-        // "The application features a robust authentication system, allowing users to securely sign up and log in. The product exploration interface is designed with user experience in mind, incorporating smooth navigation and intuitive filtering options.",
-        // "One of the key highlights is the admin panel, which provides complete control over product management, order processing, and inventory tracking. The integration with Firebase ensures real-time data synchronization and reliable data persistence.",
-        // "The app's architecture emphasizes scalability and performance, utilizing Redux for state management and following best practices for mobile app development. The UI/UX design focuses on providing a seamless shopping experience across different device sizes.",
-      ],
-      bullets: [
-        // "Implemented secure user authentication and authorization using Firebase",
-        // "Designed and developed an intuitive product browsing and shopping cart system",
-        // "Created a comprehensive admin panel for product and order management",
-        // "Integrated real-time data synchronization using Firebase Database",
-        // "Implemented state management using Redux for optimal performance",
-        // "Designed responsive UI components following mobile-first principles",
-        // "Incorporated smooth animations and transitions for enhanced user experience",
-      ],
-    },
-  },
-  {
-    id: "xenok-resume",
-    companyName: "XenOK Resmue Builder",
-    type: "Website",
-    category: ["Api", "Full Stack"],
-    shortDescription:
-      "With this resume builder though basic you will build a resume that is just perfect for you, the project would be constantly updated, so you are in for a treat.",
-    githubLink: "https://github.com/SamuelPaschalson/Resume-builder-site",
-    techStack: ["PHP", "Laravel", "Javascript"],
-    startDate: new Date("2021-07-14"),
-    endDate: new Date("2022-07-01"),
-    companyLogoImg: "/projects/blank/logo.png",
-    pagesInfoArr: [
-      {
-        title: "",
-        description:
-          "With this resume builder though basic you will build a resume that is just perfect for you, the project would be constantly updated, so you are in for a treat.",
-        imgArr: ["/projects/blank/xenok.png"],
-        vidArr: [],
-      },
-      {
-        title: "",
-        description: "",
-        imgArr: ["/projects/blank/blank.jpg"],
-        vidArr: [],
-      },
-    ],
-    descriptionDetails: {
-      paragraphs: [],
-      bullets: [],
-    },
-  },
-  {
     id: "gym-website",
     companyName: "Gym Website",
     type: "Website",
@@ -577,7 +494,7 @@ export const Projects: ProjectInterface[] = [
     techStack: ["PHP", "Laravel", "Javascript"],
     startDate: new Date("2021-07-14"),
     endDate: new Date("2022-07-01"),
-    companyLogoImg: "/projects/blank/logo.png",
+    companyLogoImg: "/projects/blank/gym.png",
     pagesInfoArr: [
       {
         title: "",
@@ -681,7 +598,7 @@ export const Projects: ProjectInterface[] = [
     techStack: ["React", "Node.js", "Javascript"],
     startDate: new Date("2021-07-14"),
     endDate: new Date("2022-07-01"),
-    companyLogoImg: "/projects/blank/logo.png",
+    companyLogoImg: "/projects/blank/e-commerce.png",
     pagesInfoArr: [
       {
         title: "",
@@ -713,7 +630,7 @@ export const Projects: ProjectInterface[] = [
     techStack: ["React", "Node.js", "Javascript"],
     startDate: new Date("2021-07-14"),
     endDate: new Date("2022-07-01"),
-    companyLogoImg: "/projects/blank/logo.png",
+    companyLogoImg: "/projects/blank/dreamshare.png",
     pagesInfoArr: [
       {
         title: "",
@@ -735,23 +652,23 @@ export const Projects: ProjectInterface[] = [
     },
   },
   {
-    id: "jsondb",
-    companyName: "JSONDB (Npm)",
+    id: "xenok-resume",
+    companyName: "XenOK Resmue Builder",
     type: "Website",
-    category: ["Web Dev", "Full Stack", "Api", "Backend"],
+    category: ["Api", "Full Stack"],
     shortDescription:
-      "This is a node_modules package that lets users access or use database like structure with Json files",
-    githubLink: "https://www.npmjs.com/package/@samuelpaschalson/json-db",
-    techStack: ["React", "Node.js", "Javascript"],
+      "With this resume builder though basic you will build a resume that is just perfect for you, the project would be constantly updated, so you are in for a treat.",
+    githubLink: "https://github.com/SamuelPaschalson/Resume-builder-site",
+    techStack: ["PHP", "Laravel", "Javascript"],
     startDate: new Date("2021-07-14"),
     endDate: new Date("2022-07-01"),
-    companyLogoImg: "/projects/blank/logo.png",
+    companyLogoImg: "/projects/blank/xenok.png",
     pagesInfoArr: [
       {
         title: "",
         description:
-          "This is a node_modules package that lets users access or use database like structure with Json files",
-        imgArr: ["/projects/blank/blank.jpg"],
+          "With this resume builder though basic you will build a resume that is just perfect for you, the project would be constantly updated, so you are in for a treat.",
+        imgArr: ["/projects/blank/xenok.png"],
         vidArr: [],
       },
       {
@@ -815,6 +732,76 @@ export const Projects: ProjectInterface[] = [
         title: "",
         description:
           "A Zoo management template in php, using a protoytype of the Xanak templating.",
+        imgArr: ["/projects/blank/blank.jpg"],
+        vidArr: [],
+      },
+      {
+        title: "",
+        description: "",
+        imgArr: ["/projects/blank/blank.jpg"],
+        vidArr: [],
+      },
+    ],
+    descriptionDetails: {
+      paragraphs: [],
+      bullets: [],
+    },
+  },
+  {
+    id: "java-management",
+    companyName: "Java Management Api",
+    type: "Apps",
+    category: ["Api", "Full Stack"],
+    shortDescription:
+      "Developed a rich api management system using Java Spring boot for book management",
+    githubLink: "https://github.com/SamuelPaschalson/management-system",
+    techStack: [
+      "Java",
+      "Next.js",
+      "Javascript",
+      "Redux",
+      "Node.js",
+      "express.js",
+    ],
+    startDate: new Date("2021-07-14"),
+    endDate: new Date("2022-07-01"),
+    companyLogoImg: "/projects/blank/logo.png",
+    pagesInfoArr: [
+      {
+        title: "",
+        description: "",
+        imgArr: ["/projects/blank/blank.jpg"],
+        vidArr: [],
+      },
+      {
+        title: "",
+        description: "",
+        imgArr: ["/projects/blank/blank.jpg"],
+        vidArr: [],
+      },
+    ],
+    descriptionDetails: {
+      paragraphs: [],
+      bullets: [],
+    },
+  },
+  {
+    id: "jsondb",
+    companyName: "JSONDB (Npm)",
+    type: "Website",
+    category: ["Web Dev", "Full Stack", "Api", "Backend"],
+    shortDescription:
+      "This is a node_modules package that lets users access or use database like structure with Json files",
+    githubLink: "https://www.npmjs.com/package/@samuelpaschalson/json-db",
+    techStack: ["React", "Node.js", "Javascript"],
+    startDate: new Date("2021-07-14"),
+    endDate: new Date("2022-07-01"),
+    companyLogoImg: "/projects/blank/logo.png",
+    pagesInfoArr: [
+      {
+        title: "",
+        description:
+          "This is a node_modules package that lets users access or use database like structure with Json files",
         imgArr: ["/projects/blank/blank.jpg"],
         vidArr: [],
       },
