@@ -22,11 +22,12 @@ export const pagesConfig: PagesConfig = {
     },
   },
   skills: {
-    title: "Skills",
-    description: "Key skills that define our identity.",
+    title: "Services",
+    description: "Key services that define our identity.",
     metadata: {
-      title: "Skills",
-      description: "Codox's key skills that defines our professional identity.",
+      title: "Services",
+      description:
+        "Codox's key services that defines our professional identity.",
     },
   },
   projects: {
