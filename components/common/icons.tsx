@@ -1,34 +1,48 @@
 import {
   AlertTriangle,
   ArrowRight,
+  BarChart3,
   BookMarked,
+  Bot,
   Building,
   Check,
   ChevronDown,
   ChevronLeft,
   ChevronRight,
+  Cloud,
+  Code,
+  Cpu,
   CreditCard,
+  Database,
   File,
   FileText,
+  Globe,
   HelpCircle,
   Image,
   Laptop,
+  Layout,
   Loader2,
   LucideProps,
+  Mail,
   Menu,
+  MessageSquare,
   Moon,
   MoreVertical,
   Music,
   Palette,
+  PenTool,
   Phone,
   Pizza,
   Plus,
   Scroll,
+  Server,
   Settings,
+  Smartphone,
   Sparkles,
   SunMedium,
   Trash,
   User,
+  Workflow,
   X,
   Zap,
 } from "lucide-react";
@@ -47,14 +61,17 @@ import {
   SiAngular,
   SiBootstrap,
   SiCss3,
+  SiElementor,
   SiExpo,
   SiExpress,
   SiFigma,
   SiGmail,
   SiGraphql,
   SiHtml5,
+  SiHubspot,
   SiJavascript,
   SiLinkedin,
+  SiMailchimp,
   SiMongodb,
   SiMui,
   SiMysql,
@@ -66,13 +83,19 @@ import {
   SiPhp,
   SiReact,
   SiRedux,
+  SiShopify,
   SiSocketdotio,
   SiTailwindcss,
   SiTwitter,
   SiTypescript,
+  SiWebflow,
+  SiWoocommerce,
+  SiWordpress,
+  SiZapier,
 } from "react-icons/si";
 
 export const Icons = {
+  // Existing icons
   contact: Phone,
   gitRepoIcon: BookMarked,
   gitOrgBuilding: Building,
@@ -136,6 +159,32 @@ export const Icons = {
   linkedin: SiLinkedin,
   userFill: BiSolidUser,
   work: HiBriefcase,
+
+  // New service icons
+  webDevelopment: Code,
+  webDesign: Layout,
+  webMaintenance: Server,
+  virtualAssistant: MessageSquare,
+  emailMarketing: Mail,
+  aiAutomation: Bot,
+  crmSetup: Database,
+  appDevelopment: Smartphone,
+  apiDevelopment: Cpu,
+  hosting: Cloud,
+  ecommerce: SiShopify,
+  wordpress: SiWordpress,
+  woocommerce: SiWoocommerce,
+  pageBuilder: SiElementor,
+  webflow: SiWebflow,
+  automation: Workflow,
+  analytics: BarChart3,
+  marketing: BarChart3,
+  seo: Globe,
+  contentWriting: PenTool,
+  hubspot: SiHubspot,
+  zapier: SiZapier,
+  mailchimp: SiMailchimp,
+
   gitHub: ({ ...props }: LucideProps) => (
     <svg
       aria-hidden="true"
@@ -169,10 +218,10 @@ export const Icons = {
           className="tick"
           fill="none"
           stroke="currentColor"
-          stroke-width="4"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-miterlimit="10"
+          strokeWidth="4"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeMiterlimit="10"
           d="M14 27l5.917 4.917L34 17"
         />
       </svg>

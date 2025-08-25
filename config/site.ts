@@ -16,7 +16,7 @@ export const siteConfig = {
     "https://res.cloudinary.com/dbfvcn3f6/image/upload/v1692357294/assets/naman-logo.png",
   keywords: [
     "Codox",
-    "Full Stack Developer",
+    "Creative Tech Agency",
     "Web Developer Portfolio",
     "Next.js portfolio template",
     "React portfolio template",
@@ -25,7 +25,7 @@ export const siteConfig = {
     "Next.js template",
     "Modern portfolio website",
     "Frontend developer portfolio",
-    "Full stack developer portfolio",
+    "Creative Tech Agency portfolio",
     "Open source portfolio template",
     "Web developer portfolio template",
     "Responsive portfolio template",
