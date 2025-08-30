@@ -3,13 +3,13 @@ export const siteConfig = {
   authorName: "Codox",
   username: "codox",
   description:
-    "Codox's portfolio - A modern, responsive Next.js portfolio, displaying the brands rich tech stack and hands on experience in programming.",
-  url: "https://codox.netlify.app",
+    "Codox's - From custom websites to automation and email systems — We help you streamline your business so you can focus on what you do best.",
+  url: "https://codox-portfolio.netlify.app",
   links: {
     twitter: "",
     github: "",
   },
-  ogImage: "https://nbarkiya.xyz/profile-img.jpg",
+  ogImage: "https://codox-portfolio.netlify.app/profile-img.jpg",
   iconIco:
     "https://res.cloudinary.com/dbfvcn3f6/image/upload/v1692357384/assets/naman-favicon.ico",
   logoIcon:
