@@ -1,30 +1,41 @@
-import { NextResponse } from "next/server";
+import nodemailer from "nodemailer";
 
 export async function POST(req: Request) {
-  const formLink = process.env.GOOGLE_FORM_LINK;
-  if (!formLink) {
-    return new NextResponse("Please configure the env variables", {
+  try {
+    const { name, email, message, social } = await req.json();
+
+    // 1️⃣ Configure transporter (using your email provider)
+    const transporter = nodemailer.createTransport({
+      service: "gmail", // or use 'smtp-mail.outlook.com' for Outlook, etc.
+      auth: {
+        user: process.env.CONTACT_EMAIL_USER, // your email
+        pass: process.env.CONTACT_EMAIL_PASS, // app password or SMTP password
+      },
+    });
+
+    // 2️⃣ Define email content
+    const mailOptions = {
+      from: `"${name}" <${email}>`,
+      to: process.env.CONTACT_RECEIVER_EMAIL, // where you want to receive messages
+      subject: `New message from ${name}`,
+      text: `
+Name: ${name}
+Email: ${email}
+Social: ${social || "N/A"}
+Message: ${message}
+      `,
+    };
+
+    // 3️⃣ Send the mail
+    await transporter.sendMail(mailOptions);
+
+    return new Response(JSON.stringify({ success: true }), {
+      status: 200,
+    });
+  } catch (error) {
+    console.error(error);
+    return new Response(JSON.stringify({ success: false, error }), {
       status: 500,
     });
-  }
-
-  // configure this according to your google form
-  const fieldIdName = process.env.GOOGLE_FORM_FIELD_ID_NAME;
-  const fieldIdEmail = process.env.GOOGLE_FORM_FIELD_ID_EMAIL;
-  const fieldIdMessage = process.env.GOOGLE_FORM_FIELD_ID_MESSAGE;
-  const fieldIdSocial = process.env.GOOGLE_FORM_FIELD_ID_SOCIAL;
-
-  try {
-    const body = await req.json();
-    const { name, message, social, email } = body;
-
-    const res = await fetch(
-      `${formLink}/formResponse?${fieldIdName}=${name}&${fieldIdEmail}=${email}&${fieldIdMessage}=${message}&${fieldIdSocial}=${social}`
-    );
-
-    return NextResponse.json("Success!");
-  } catch (error) {
-    console.log(error);
-    return new NextResponse("Internal error", { status: 500 });
   }
 }

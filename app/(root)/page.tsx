@@ -33,7 +33,7 @@ export default function IndexPage() {
     url: siteConfig.url,
     image: siteConfig.ogImage,
     jobTitle: "Creative Tech Agency",
-    sameAs: [siteConfig.links.github, siteConfig.links.twitter],
+    // sameAs: [siteConfig.links.github, siteConfig.links.twitter],
   };
 
   // Structured data for website as a software application (template)

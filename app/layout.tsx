@@ -7,6 +7,7 @@ import { Inter as FontSans } from "next/font/google";
 import localFont from "next/font/local";
 
 import { Analytics } from "@/components/common/analytics";
+import { StructuredData } from "@/components/common/structured-data";
 import { ThemeProvider } from "@/components/common/theme-provider";
 import { Toaster } from "@/components/ui/toaster";
 import { siteConfig } from "@/config/site";
@@ -43,6 +44,12 @@ export const metadata = {
     },
   ],
   creator: siteConfig.username,
+  publisher: siteConfig.authorName,
+  formatDetection: {
+    email: false,
+    address: false,
+    telephone: false,
+  },
   openGraph: {
     type: "website",
     locale: "en_US",
@@ -63,15 +70,9 @@ export const metadata = {
     card: "summary_large_image",
     title: siteConfig.name,
     description: siteConfig.description,
-    images: [
-      {
-        url: siteConfig.ogImage,
-        width: 1200,
-        height: 630,
-        alt: siteConfig.name,
-      },
-    ],
+    images: [siteConfig.ogImage],
     creator: `@${siteConfig.username}`,
+    site: `@${siteConfig.username}`,
   },
   icons: {
     icon: siteConfig.iconIco,
@@ -81,6 +82,9 @@ export const metadata = {
   manifest: `${siteConfig.url}/site.webmanifest`,
   alternates: {
     canonical: siteConfig.url,
+    types: {
+      "application/rss+xml": `${siteConfig.url}/rss.xml`,
+    },
   },
   robots: {
     index: true,
@@ -88,6 +92,7 @@ export const metadata = {
     googleBot: {
       index: true,
       follow: true,
+      "max-video-preview": -1,
       "max-image-preview": "large",
       "max-snippet": -1,
     },
@@ -95,17 +100,22 @@ export const metadata = {
   verification: {
     google: process.env.NEXT_PUBLIC_GOOGLE_VERIFICATION,
   },
+  category: "technology",
 };
 
 export default function RootLayout({ children }: RootLayoutProps) {
   const GA_ID = process.env.NEXT_PUBLIC_GOOGLE_MEASUREMENT_ID;
-  if (!GA_ID) {
-    throw new Error("Missing Google Analytics ID");
-  }
 
   return (
     <html lang="en" suppressHydrationWarning>
-      <head />
+      <head>
+        <StructuredData />
+        <link rel="canonical" href={siteConfig.url} />
+        <meta name="geo.region" content="NG" />
+        <meta name="geo.placename" content="Global" />
+        <meta name="geo.position" content="latitude;longitude" />
+        <meta name="ICBM" content="latitude, longitude" />
+      </head>
       <body
         className={cn(
           "min-h-screen bg-background font-sans antialiased",
@@ -133,7 +143,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
           <ModalProvider />
         </ThemeProvider>
       </body>
-      <GoogleAnalytics gaId={GA_ID} />
+      {GA_ID && <GoogleAnalytics gaId={GA_ID} />}
     </html>
   );
 }

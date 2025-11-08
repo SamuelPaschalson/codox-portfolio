@@ -30,6 +30,41 @@ export interface ProjectInterface {
 
 export const Projects: ProjectInterface[] = [
   {
+    id: "edu-africa",
+    companyName: "Edu Africa",
+    type: "Apps",
+    category: ["Mobile Dev", "Full Stack", "Frontend"],
+    shortDescription:
+      "Your transformative learning journey in Africa begins here. Tailor your program with a broad range of unique educational opportunities that are designed to meet the users needs.",
+    githubLink: "",
+    techStack: ["React", "Node.js", "Javascript", "React Native"],
+    startDate: new Date("2025-07-14"),
+    endDate: new Date("2025-09-01"),
+    companyLogoImg: "/projects/edu-africa/logo.png",
+    pagesInfoArr: [
+      {
+        title: "",
+        description:
+          "Your transformative learning journey in Africa begins here. Tailor your program with a broad range of unique educational opportunities that are designed to meet the users needs.",
+        imgArr: ["/projects/edu-africa/splash.png"],
+        vidArr: [],
+      },
+      {
+        title: "",
+        description: "",
+        imgArr: [
+          "/projects/edu-africa/splash.png",
+          "/projects/edu-africa/1024x1024.jpg",
+        ],
+        vidArr: [],
+      },
+    ],
+    descriptionDetails: {
+      paragraphs: [],
+      bullets: [],
+    },
+  },
+  {
     id: "zen-task",
     companyName: "ZenTask",
     type: "Design",
@@ -77,54 +112,7 @@ export const Projects: ProjectInterface[] = [
       ],
     },
   },
-  {
-    id: "company-project",
-    companyName: "Company Projects",
-    type: "Apps",
-    category: ["Web Dev", "Full Stack", "Mobile Dev"],
-    shortDescription: "Developed NDA Mobile Apps for Companies.",
-    websiteLink: "",
-    techStack: [
-      "Next.js",
-      "React",
-      "Node.js",
-      "MongoDB",
-      "Figma",
-      "UI/UX",
-      "React Native",
-      "Typescript",
-    ],
-    startDate: new Date("2021-07-01"),
-    endDate: new Date("2022-07-01"),
-    companyLogoImg: "/projects/blank/blank.jpg",
-    pagesInfoArr: [
-      {
-        title: "Landing Page",
-        description:
-          "Modern and responsive landing page showcasing company services and portfolio",
-        imgArr: [
-          "/projects/zentask/zentask1.jpg",
-          "/projects/zentask/zentask2.jpg",
-          "/projects/zentask/zentask.jpg",
-        ],
-        vidArr: [],
-      },
-    ],
-    descriptionDetails: {
-      paragraphs: [
-        // "During my time at Builtdesign, I had the opportunity to work on a dynamic and user-focused project that involved designing and optimizing a website catering to a user base of over 4000 individuals. My role as a full-stack web developer was to ensure a seamless experience for users by creating an efficient and maintainable platform.",
-        // "I collaborated closely with the product team to integrate cutting-edge features, employing technologies like Next.js and React with TypeScript for captivating front-end experiences. Additionally, I contributed significantly to the backend by utilizing Node.js, MongoDB, and GraphQL to design robust APIs and ensure smooth system functionality.",
-        // "This experience allowed me to enhance my skills in various areas of web development and deliver a high-quality product. I gained proficiency in front-end technologies such as Material UI and Tailwind CSS, as well as backend technologies including Nest.js and MySQL. The project's success in catering to a large user base and providing an intuitive user interface has further motivated me to pursue excellence in web development.",
-      ],
-      bullets: [
-        // "Developed and optimized a high-performing website catering to over 4000 users.",
-        // "Collaborated closely with the product team to implement cutting-edge features.",
-        // "Created an intuitive admin dashboard to efficiently manage and announce contest winners.",
-        // "Leveraged Next.js, React with TypeScript for captivating front-end experiences.",
-        // "Utilized Node.js, MongoDB, and GraphQL to design and manage databases.",
-      ],
-    },
-  },
+
   {
     id: "david-goggins",
     companyName: "David Goggins",
@@ -809,6 +797,44 @@ export const Projects: ProjectInterface[] = [
         title: "",
         description: "",
         imgArr: ["/projects/blank/blank.jpg"],
+        vidArr: [],
+      },
+    ],
+    descriptionDetails: {
+      paragraphs: [],
+      bullets: [],
+    },
+  },
+  {
+    id: "company-project",
+    companyName: "Company Projects",
+    type: "Apps",
+    category: ["Web Dev", "Full Stack", "Mobile Dev"],
+    shortDescription: "Developed NDA Mobile Apps for Companies.",
+    websiteLink: "",
+    techStack: [
+      "Next.js",
+      "React",
+      "Node.js",
+      "MongoDB",
+      "Figma",
+      "UI/UX",
+      "React Native",
+      "Typescript",
+    ],
+    startDate: new Date("2021-07-01"),
+    endDate: new Date("2022-07-01"),
+    companyLogoImg: "/projects/blank/blank.jpg",
+    pagesInfoArr: [
+      {
+        title: "Landing Page",
+        description:
+          "Modern and responsive landing page showcasing company services and portfolio",
+        imgArr: [
+          "/projects/zentask/zentask1.jpg",
+          "/projects/zentask/zentask2.jpg",
+          "/projects/zentask/zentask.jpg",
+        ],
         vidArr: [],
       },
     ],

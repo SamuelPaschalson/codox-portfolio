@@ -19,6 +19,10 @@ const nextConfig = {
       },
     ];
   },
+  // SEO Optimizations
+  poweredByHeader: false,
+  compress: true,
+  generateEtags: true,
 };
 
 module.exports = nextConfig;

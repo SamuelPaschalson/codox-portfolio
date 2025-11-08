@@ -30,6 +30,6 @@ export const SocialLinks: SocialInterface[] = [
     name: "Gmail",
     username: "",
     icon: Icons.gmail,
-    link: "mailto:google.com",
+    link: "mailto:creativetechagency.mail@gmail.com",
   },
 ];
